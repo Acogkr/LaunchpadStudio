@@ -1,0 +1,72 @@
+# Build products and generated resources
+.build/
+dist/
+*.app/
+*.app.fixture/
+*.dmg
+*.zip
+*.sha256
+Resources/*.lproj/
+Resources/DMG/
+
+# Local Launchpad data, backups, and recovered settings
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+db
+db-wal
+db-shm
+draft.json
+preferences.json
+app-discovery.json
+Removal History/
+Recovered App History/
+Backups/
+backups/
+Recovered Settings/
+Recovered Drafts/
+/local-data/
+
+# Credentials and signing material
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+credentials.json
+credentials-*.json
+client_secret*.json
+service-account*.json
+.netrc
+.git-credentials
+.npmrc
+.aws/
+.ssh/
+
+# Local tooling, scratch files, and test reports
+*.log
+*-TEST-RESULTS.txt
+TEST-RESULTS.txt
+/work/
+/tmp/
+__pycache__/
+*.py[cod]
+.venv/
+
+# macOS and editor state
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.idea/
+.vscode/
+xcuserdata/
+*.xcuserstate
